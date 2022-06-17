@@ -16,8 +16,8 @@ function sendMail($to, $subject, $message)
         $mail->SMTPAuth = true;
         $mail->SMTPSecure = 'tls';
         $mail->Port = 587;
-        $mail->Username = 'dragononlinefoodstore@gmail.com';
-        $mail->Password = 'Ujjwal@123';
+        $mail->Username = '';
+        $mail->Password = '';
 
         $mail->setFrom('no_reply@dragononlinefoodstore.com', 'DragonOnlineFoodStore');
 
